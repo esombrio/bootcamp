@@ -14,6 +14,7 @@ resource "aws_s3_bucket" "meu_bucket" {
   tags = {
     Name        = "Meu Bucket Único"
     Environment = "Dev"
+    Resource    = "bootcamp"
     CreatedBy   = "Terraform"
   }
 }
